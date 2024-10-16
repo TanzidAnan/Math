@@ -14,7 +14,9 @@ function App() {
 
 function Person() {
   const age = 20;
-  return <h1>This is Person :{age}</h1>
+  const mony =30;
+  const person ={name:'Tanzid ', address: 'Daka'}
+  return <h1>This is {person.name} with  :{age + mony}</h1>
 }
 
 export default App
