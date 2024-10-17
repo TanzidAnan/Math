@@ -1,18 +1,23 @@
 
 import Actor from './Actor';
 import './App.css'
+import Singer from './Singer';
 
 function App() {
   const actors = ['tanzid', 'anan', 'marzan', 'Milon'];
-  const singer =[
-    {name:'Tanzid',age:20},
-    {name:'Marzan',age:20},
-    {name:'Anan',age:20},
+  const singers = [
+    { id: 1, name: 'Tanzid', age: 20 },
+    { id: 2, name: 'Marzan', age: 20 },
+    { id: 3, name: 'Anan', age: 20 },
   ]
 
   return (
     <>
       <p>Tanzid</p>
+
+      {
+        singers.map(singer => <Singer singer={singer}></Singer>)
+      }
 
       <Actor name="Raj"></Actor>
       {
