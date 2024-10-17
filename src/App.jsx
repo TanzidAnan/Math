@@ -1,11 +1,13 @@
 
 import './App.css'
+import ToDo from './Todo';
 
 function App() {
 
   return (
     <>
       <p></p>
+      <ToDo></ToDo>
       <Person></Person>
       <Person></Person>
       <AddPreson name= "Tanzid" age="21"></AddPreson>
@@ -31,7 +33,7 @@ function AddPreson(props){
   )
 }
 
-function Devloper({yera,name}){
+function Devloper({yera , name}){
   return(
     <div>
       <h3>Fast Developer {yera} Name {name}</h3>
