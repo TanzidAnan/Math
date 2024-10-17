@@ -7,7 +7,11 @@ function App() {
   return (
     <>
       <p></p>
-      <ToDo></ToDo>
+      <ToDo lastName="Anan" isDone={true}></ToDo>
+      <ToDo lastName="Anan" isDone={false}></ToDo>
+      <ToDo lastName="Anan" isDone={true}></ToDo>
+      <ToDo lastName="Anan" isDone={false}></ToDo>
+      <ToDo lastName="Anan" isDone={true}></ToDo>
       <Person></Person>
       <Person></Person>
       <AddPreson name= "Tanzid" age="21"></AddPreson>

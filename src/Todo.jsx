@@ -1,7 +1,9 @@
-export default function ToDo(){
-    return(
-        <div>
-            <h1>Tanzid</h1>
-        </div>
-    )
+export default function ToDo({name,isDone}){
+    if(isDone ===true){
+        return <li>Last Name {name}</li>
+    }
+    else{
+        return <li>No Name {name}</li>
+    }
+   
 }
