@@ -3,7 +3,12 @@ import Actor from './Actor';
 import './App.css'
 
 function App() {
-  const actors = ['tanzid', 'anan', 'marzan', 'Milon']
+  const actors = ['tanzid', 'anan', 'marzan', 'Milon'];
+  const singer =[
+    {name:'Tanzid',age:20},
+    {name:'Marzan',age:20},
+    {name:'Anan',age:20},
+  ]
 
   return (
     <>
