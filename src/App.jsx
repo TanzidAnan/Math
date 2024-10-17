@@ -1,11 +1,15 @@
 
+import Actor from './Actor';
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <p></p>
+      <p>Tanzid</p>
+
+    <Actor name="Raj"></Actor>
+
       {/* <ToDo lastName="Anan" isDone={true}></ToDo>
       <ToDo lastName="Anan" isDone={false}></ToDo>
       <ToDo lastName="Anan" isDone={true}></ToDo>
@@ -13,9 +17,9 @@ function App() {
       <ToDo lastName="Anan" isDone={true}></ToDo> */}
       <Person></Person>
       <Person></Person>
-      <AddPreson name= "Tanzid" age="21"></AddPreson>
+      {/* <AddPreson name= "Tanzid" age="21"></AddPreson>
       <AddPreson name= "marzan" age="30"></AddPreson>
-      <Devloper yera={2021} name="web developer"></Devloper>
+      <Devloper yera={2021} name="web developer"></Devloper> */}
     </>
   )
 }
