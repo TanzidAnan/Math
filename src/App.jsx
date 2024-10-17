@@ -1,17 +1,16 @@
 
 import './App.css'
-import ToDo from './Todo';
 
 function App() {
 
   return (
     <>
       <p></p>
-      <ToDo lastName="Anan" isDone={true}></ToDo>
+      {/* <ToDo lastName="Anan" isDone={true}></ToDo>
       <ToDo lastName="Anan" isDone={false}></ToDo>
       <ToDo lastName="Anan" isDone={true}></ToDo>
       <ToDo lastName="Anan" isDone={false}></ToDo>
-      <ToDo lastName="Anan" isDone={true}></ToDo>
+      <ToDo lastName="Anan" isDone={true}></ToDo> */}
       <Person></Person>
       <Person></Person>
       <AddPreson name= "Tanzid" age="21"></AddPreson>
@@ -28,21 +27,21 @@ function Person() {
   return <h1>This is {person.name} with  :{age + mony}</h1>
 }
 
-function AddPreson(props){
-  console.log(props)
-  return (
-    <div>
-      <h1>This is {props.name} and age {props.age}</h1>
-    </div>
-  )
-}
+// function AddPreson(props){
+//   console.log(props)
+//   return (
+//     <div>
+//       <h1>This is {props.name} and age {props.age}</h1>
+//     </div>
+//   )
+// }
 
-function Devloper({yera , name}){
-  return(
-    <div>
-      <h3>Fast Developer {yera} Name {name}</h3>
-    </div>
-  )
-}
+// function Devloper({yera , name}){
+//   return(
+//     <div>
+//       <h3>Fast Developer {yera} Name {name}</h3>
+//     </div>
+//   )
+// }
 
 export default App
