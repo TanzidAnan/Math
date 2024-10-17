@@ -1,9 +1,9 @@
-export default function ToDo({name,isDone}){
+export default function ToDo({lastName,isDone}){
     if(isDone ===true){
-        return <li>Last Name {name}</li>
+        return <li>Tanzid  {lastName}</li>
     }
     else{
-        return <li>No Name {name}</li>
+        return <li>No Name</li>
     }
    
 }
