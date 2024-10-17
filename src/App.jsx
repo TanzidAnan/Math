@@ -3,12 +3,16 @@ import Actor from './Actor';
 import './App.css'
 
 function App() {
+  const actors = ['tanzid', 'anan', 'marzan', 'Milon']
 
   return (
     <>
       <p>Tanzid</p>
 
-    <Actor name="Raj"></Actor>
+      <Actor name="Raj"></Actor>
+      {
+        actors.map(actor => <Actor name={actor}></Actor>)
+      }
 
       {/* <ToDo lastName="Anan" isDone={true}></ToDo>
       <ToDo lastName="Anan" isDone={false}></ToDo>
@@ -26,8 +30,8 @@ function App() {
 
 function Person() {
   const age = 20;
-  const mony =30;
-  const person ={name:'Tanzid ', address: 'Daka'}
+  const mony = 30;
+  const person = { name: 'Tanzid ', address: 'Daka' }
   return <h1>This is {person.name} with  :{age + mony}</h1>
 }
 
