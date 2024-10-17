@@ -9,6 +9,8 @@ function App() {
       <Person></Person>
       <Person></Person>
       <AddPreson name= "Tanzid" age="21"></AddPreson>
+      <AddPreson name= "marzan" age="30"></AddPreson>
+      <Devloper yera={2021} name="web developer"></Devloper>
     </>
   )
 }
@@ -25,6 +27,14 @@ function AddPreson(props){
   return (
     <div>
       <h1>This is {props.name} and age {props.age}</h1>
+    </div>
+  )
+}
+
+function Devloper({yera,name}){
+  return(
+    <div>
+      <h3>Fast Developer {yera} Name {name}</h3>
     </div>
   )
 }
